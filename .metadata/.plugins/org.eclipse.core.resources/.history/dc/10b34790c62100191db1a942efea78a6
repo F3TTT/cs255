@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package U1Lab1vehicles;
+
+/**
+ * @author Dan Doughty
+ *
+ */
+public class CarTester {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

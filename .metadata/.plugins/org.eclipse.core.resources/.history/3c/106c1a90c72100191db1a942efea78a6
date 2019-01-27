@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package U1Lab1vehicles;
+
+/**
+ * @author Dan Doughty
+ *
+ */
+public class CarTester {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car dansKia = new Car("Kia","Optima",2013,4,4);
+		System.out.println(dansKia.getMake() + " " + dansKia.getModel() + " " + dansKia.getYear() + " " + dansKia.getNumberOfWheels() + " " + dansKia.getNumberOfDoors());
+		dansKia.setMake("Schwinn");
+		dansKia.setModel("Tricycle");
+		dansKia.setYear(1955);
+		dansKia.setNumberOfWheels(3);
+		dansKia.setNumberOfDoors(0);
+		System.out.println(dansKia.getMake() + " " + dansKia.getModel() + " " + dansKia.getYear());
+
+
+	}
+
+}

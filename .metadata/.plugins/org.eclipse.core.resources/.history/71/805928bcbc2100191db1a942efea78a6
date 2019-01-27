@@ -1,0 +1,17 @@
+package AthleteExample;
+
+public class AthleteTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Athlete jacob = new Athlete ("Jacob", "Adams", "Running");
+		System.out.println(jacob.getFirstName() + " " + jacob.getLastName() + " " + jacob.getSport());
+		jacob.setFirstName("Joseph");
+		jacob.setLastName("Mein");
+		System.out.println(jacob.getFirstName() + " " + jacob.getLastName() + " " + jacob.getSport());
+
+		
+	}
+
+}
