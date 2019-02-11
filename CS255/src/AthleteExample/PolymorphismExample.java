@@ -39,7 +39,7 @@ public class PolymorphismExample {
 		people[4] = charles;
 		
 		System.out.println(Arrays.toString(people));
-		Arrays.sort(people);
+//		Arrays.sort(people);
 		
 	}
 
